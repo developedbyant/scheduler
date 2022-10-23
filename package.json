@@ -1,0 +1,19 @@
+{
+    "type": "module",
+    "name": "@developedbyant/scheduler",
+    "version": "0.0.3",
+    "description": "Simple and fast node js scheduler.",
+    "main": "./out/main.js",
+    "types": "./out/main.d.ts",
+    "files": ["out"],
+    "keywords": [ "scheduler","schedule"],
+    "author": "DevelopedByAnt",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.11.3"
+    },
+    "repository": {
+        "type": "git","url": "https://github.com/developedbyant/scheduler"
+    }
+  }
+  
