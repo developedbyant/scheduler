@@ -65,11 +65,9 @@ export default async function scheduler(props:Props){
             // Wait for the time between now and re run date
             await wait(reRunDate - new Date().getTime())
         }
-        // Break function if props.every is negative number
-        if(props.every<0) break
-        // Wait for given props.every
-        await wait(props.every)
         // Run function
         props.func()
+        // Wait for given props.every
+        await wait(props.every)
     }
 }
