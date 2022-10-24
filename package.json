@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@developedbyant/scheduler",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Simple and fast node js scheduler.",
     "main": "./out/main.js",
     "types": "./out/main.d.ts",
